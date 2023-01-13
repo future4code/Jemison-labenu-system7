@@ -4,6 +4,8 @@ LINK DEPLOY: https://labenu-system7.onrender.com
 
 LINK DOCUMENTAÇÃO:
 
+FEITO POR: Karolina Marques
+
 Projeto de criação do sistema básico da organização Labenu 
 
 3 entidades importantes:
