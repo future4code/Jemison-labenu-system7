@@ -1,33 +1,31 @@
 ## LabenuSystem:
 
-Você estuda na Labenu_ há tanto tempo que já parecem anos, não é? Então, hoje, vamos pedir para criar um sistema que represente o básico da nossa organização. 
+Projeto de criação do sistema básico da organização Labenu 
 
-Ele deve possuir, ao menos, as 3 entidades importantes:
+3 entidades importantes:
 
-1. Estudantes 
+1- Turma
 
-    Representa estudantes da nossa instituição. Eles devem possuir: id, nome, email, data de nascimento e os principais hobbies dele. 
+Toda turma é composta das seguintes características: id, nome e módulo. 
 
-2. Docente
+2- Estudantes
 
-    Representa docentes da nossa instituição. Eles devem possuir: id, nome, email, data de nascimento e todas as especialidades dele. Há 7 especialidades: React, Redux, CSS, Testes, Typescript, Programação Orientada a Objetos e Backend
+Representa estudantes da instituição. Eles devem possuir: id, nome, email, data de nascimento, turma id e seus principais hobbies.
 
-3. Turma
+3- Docente
 
-    Toda turma é composta das seguintes características: id, nome, data de início, data de término, lista de professores responsáveis, uma lista de alunos e módulo atual em que a turma está.
+Representa docentes da instituição. Eles devem possuir: id, nome, email, data de nascimento, turma id e especialidades. 
+    
+    As funcionalidades feitas neste projeto:
 
-    O módulo pode assumir os valores de 1 a 7 ou `undefined`, indicando que as aulas dessa turma ainda não começaram. Para esse exercício, vamos considerar que existam dois tipos de turma: integral ou noturna. Há uma restrição para o nome das turmas noturnas: tem que terminar com `-na-night`.
+→ Criar turma
+→ Buscar turmas ativas
 
-As funcionalidades básicas são:
 
-→ Criar estudante;
+→ Criar estudante
+→ Buscar estudantes ativos
+
 
 → Criar docente;
+→ Buscar todos os docentes;
 
-→ Criar turma;
-
-→ Adicionar estudante na turma;
-
-→ Adicionar docente na turma;
-
-→ Pegar a idade de algum estudante a partir do id
