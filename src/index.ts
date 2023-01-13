@@ -10,6 +10,7 @@ import { criarDocente } from "./Endpoints/criarDocente";
 import { getAllTurmas } from "./Endpoints/getAllTurmas";
 import { getAllEstudantes } from "./Endpoints/getAllEstudantes";
 import { getAllDocentes } from "./Endpoints/getAllDocentes";
+import { AddressInfo } from "net";
 
 dotenv.config();
 
@@ -19,8 +20,13 @@ app.use(express.json())
 
 app.use(cors())
 
-app.listen(3003, () => {
-    console.log("Server is running in http://localhost:3003");
+const server = app.listen(process.env.PORT || 3003, () => {
+    if (server) {
+    const adress = server.address() as AddressInfo;
+    console.log(`Server is running in http://localhost: ${adress.port}`);
+    } else {
+        console.error(`Failure upon starting server.`);
+    }
 });
 
 
