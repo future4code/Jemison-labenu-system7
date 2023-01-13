@@ -2,7 +2,7 @@
 
 LINK DEPLOY: https://labenu-system7.onrender.com
 
-LINK DOCUMENTAÇÃO:
+LINK DOCUMENTAÇÃO: https://documenter.getpostman.com/view/22376085/2s8ZDSc5ag
 
 FEITO POR: Karolina Marques
 
