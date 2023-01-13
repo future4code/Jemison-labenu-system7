@@ -1,5 +1,9 @@
 ## LabenuSystem:
 
+LINK DEPLOY: https://labenu-system7.onrender.com
+
+LINK DOCUMENTAÇÃO:
+
 Projeto de criação do sistema básico da organização Labenu 
 
 3 entidades importantes:
@@ -28,4 +32,5 @@ Representa docentes da instituição. Eles devem possuir: id, nome, email, data 
 
 → Criar docente;
 → Buscar todos os docentes;
+
 
