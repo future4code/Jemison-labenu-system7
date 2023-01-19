@@ -1,0 +1,54 @@
+### teste
+
+GET http://localhost:3003/ping
+Content-Type : application/json
+
+### criar estudante
+
+POST http://localhost:3003/criarEstudante
+Content-Type: application/json
+
+{
+    "nome": "Maria", 
+    "email": "maria@labenu.com.br", 
+    "data_nasc": "1992/02/25" , 
+    "turma_id": "01"
+}
+
+### criar turma
+
+POST  http://localhost:3003/criarTurma
+Content-Type: application/json
+
+{
+    "nome": "Lammar", 
+    "modulo": "01"
+}
+
+### criar docente
+
+POST http://localhost:3003/criarDocente
+Content-Type: application/json
+
+{
+    "nome": "Tati", 
+    "email": "tati@labenu.com.br", 
+    "data_nasc": "1995/08/29" , 
+    "turma_id": "01"
+}
+
+### retorna todas as turmas
+
+GET http://localhost:3003/turmas
+Content-Type : application/json
+
+
+### retorna todos os estudantes
+
+GET http://localhost:3003/estudantes
+Content-Type : application/json
+
+### retorna todos os docentes
+
+GET http://localhost:3003/docentes
+Content-Type : application/json
